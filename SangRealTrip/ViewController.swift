@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var comeOnLabel: UILabel!
+    @IBOutlet weak var comeLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var kakaoBtn: UIButton!
     @IBOutlet weak var startBtn: UIButton!
@@ -56,10 +56,10 @@ class ViewController: UIViewController {
                 self.loginName = user?.kakaoAccount?.profile?.nickname
                 if self.loginName == "고영상"{
                     self.kakaoBtn.isHidden = true
-                    self.comeOnLabel.isHidden = true
+                    self.comeLabel.isHidden = true
                     self.nameLabel.isHidden = false
                     self.startBtn.isHidden = false
-                    self.nameLabel.text = "고영상님 반가워요!"
+                    self.nameLabel.text = "\(self.loginName!)님 반가워요!"
                     
                     //값을 전달해줘야하고 다음 그걸로 가야함
                 }
@@ -81,4 +81,8 @@ class ViewController: UIViewController {
 //        }
 //        nextVC.
 //    }
+    @IBAction func goHomeBtn(_ sender: Any) {
+        tabBarController?.selectedIndex = 1
+        self.startBtn.isHidden = true
     }
+}

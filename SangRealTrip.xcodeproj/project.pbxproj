@@ -13,6 +13,14 @@
 		CE0BD6A925A8180F00C87602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0BD6A725A8180F00C87602 /* Main.storyboard */; };
 		CE0BD6AB25A8181000C87602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0BD6AA25A8181000C87602 /* Assets.xcassets */; };
 		CE0BD6AE25A8181000C87602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0BD6AC25A8181000C87602 /* LaunchScreen.storyboard */; };
+		CE1AF94425AADB7000C0C768 /* jeju.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1AF94225AADB7000C0C768 /* jeju.png */; };
+		CE1AF94525AADB7000C0C768 /* gg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE1AF94325AADB7000C0C768 /* gg.jpg */; };
+		CE1AF94925AB1EDC00C0C768 /* SangRealTrip_Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AF94825AB1EDC00C0C768 /* SangRealTrip_Search.swift */; };
+		CE1AF94C25AB232100C0C768 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1AF94B25AB232100C0C768 /* car.png */; };
+		CE1AF94F25AC2B9300C0C768 /* CarPing_Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AF94E25AC2B9300C0C768 /* CarPing_Chat.swift */; };
+		CE1AF95225AC2BAA00C0C768 /* CarPing_WishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AF95125AC2BAA00C0C768 /* CarPing_WishList.swift */; };
+		CE1AF95525AC32FE00C0C768 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1AF95425AC32FE00C0C768 /* background.png */; };
+		CE1AF95825AC37C200C0C768 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1AF95725AC37C200C0C768 /* map.png */; };
 		CE4A57DC25A95B2C007E639F /* KakaoTalk_Image_2021-01-09-09-55-26.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE4A57DB25A95B2C007E639F /* KakaoTalk_Image_2021-01-09-09-55-26.jpeg */; };
 		CE4A57DF25A9622A007E639F /* SangRealTrip_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A57DE25A9622A007E639F /* SangRealTrip_Home.swift */; };
 		CE4A57E825A9851F007E639F /* StartTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A57E725A9851F007E639F /* StartTrip.swift */; };
@@ -31,6 +39,14 @@
 		CE0BD6AA25A8181000C87602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0BD6AD25A8181000C87602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE0BD6AF25A8181000C87602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1AF94225AADB7000C0C768 /* jeju.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeju.png; sourceTree = "<group>"; };
+		CE1AF94325AADB7000C0C768 /* gg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gg.jpg; sourceTree = "<group>"; };
+		CE1AF94825AB1EDC00C0C768 /* SangRealTrip_Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SangRealTrip_Search.swift; sourceTree = "<group>"; };
+		CE1AF94B25AB232100C0C768 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = ../../../car.png; sourceTree = "<group>"; };
+		CE1AF94E25AC2B9300C0C768 /* CarPing_Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPing_Chat.swift; sourceTree = "<group>"; };
+		CE1AF95125AC2BAA00C0C768 /* CarPing_WishList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPing_WishList.swift; sourceTree = "<group>"; };
+		CE1AF95425AC32FE00C0C768 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../background.png; sourceTree = "<group>"; };
+		CE1AF95725AC37C200C0C768 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = ../../../map.png; sourceTree = "<group>"; };
 		CE4A57DB25A95B2C007E639F /* KakaoTalk_Image_2021-01-09-09-55-26.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "KakaoTalk_Image_2021-01-09-09-55-26.jpeg"; path = "../../../../Downloads/KakaoTalk_Image_2021-01-09-09-55-26.jpeg"; sourceTree = "<group>"; };
 		CE4A57DE25A9622A007E639F /* SangRealTrip_Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SangRealTrip_Home.swift; sourceTree = "<group>"; };
 		CE4A57E725A9851F007E639F /* StartTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTrip.swift; sourceTree = "<group>"; };
@@ -96,6 +112,9 @@
 				CE0BD6AF25A8181000C87602 /* Info.plist */,
 				CE4A57DE25A9622A007E639F /* SangRealTrip_Home.swift */,
 				CE4A57E725A9851F007E639F /* StartTrip.swift */,
+				CE1AF94825AB1EDC00C0C768 /* SangRealTrip_Search.swift */,
+				CE1AF94E25AC2B9300C0C768 /* CarPing_Chat.swift */,
+				CE1AF95125AC2BAA00C0C768 /* CarPing_WishList.swift */,
 			);
 			path = SangRealTrip;
 			sourceTree = "<group>";
@@ -103,6 +122,11 @@
 		CE4A57DA25A95B06007E639F /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				CE1AF95725AC37C200C0C768 /* map.png */,
+				CE1AF95425AC32FE00C0C768 /* background.png */,
+				CE1AF94B25AB232100C0C768 /* car.png */,
+				CE1AF94325AADB7000C0C768 /* gg.jpg */,
+				CE1AF94225AADB7000C0C768 /* jeju.png */,
 				CE4A57DB25A95B2C007E639F /* KakaoTalk_Image_2021-01-09-09-55-26.jpeg */,
 			);
 			path = Image;
@@ -167,8 +191,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1AF95825AC37C200C0C768 /* map.png in Resources */,
+				CE1AF94C25AB232100C0C768 /* car.png in Resources */,
+				CE1AF95525AC32FE00C0C768 /* background.png in Resources */,
 				CE0BD6AE25A8181000C87602 /* LaunchScreen.storyboard in Resources */,
+				CE1AF94425AADB7000C0C768 /* jeju.png in Resources */,
 				CE0BD6AB25A8181000C87602 /* Assets.xcassets in Resources */,
+				CE1AF94525AADB7000C0C768 /* gg.jpg in Resources */,
 				CE0BD6A925A8180F00C87602 /* Main.storyboard in Resources */,
 				CE4A57DC25A95B2C007E639F /* KakaoTalk_Image_2021-01-09-09-55-26.jpeg in Resources */,
 			);
@@ -225,9 +254,12 @@
 			files = (
 				CE0BD6A625A8180F00C87602 /* ViewController.swift in Sources */,
 				CE0BD6A225A8180F00C87602 /* AppDelegate.swift in Sources */,
+				CE1AF94F25AC2B9300C0C768 /* CarPing_Chat.swift in Sources */,
+				CE1AF95225AC2BAA00C0C768 /* CarPing_WishList.swift in Sources */,
 				CE4A57DF25A9622A007E639F /* SangRealTrip_Home.swift in Sources */,
 				CE0BD6A425A8180F00C87602 /* SceneDelegate.swift in Sources */,
 				CE4A57E825A9851F007E639F /* StartTrip.swift in Sources */,
+				CE1AF94925AB1EDC00C0C768 /* SangRealTrip_Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
